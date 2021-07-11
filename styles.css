@@ -1,0 +1,32 @@
+body {
+    background-color: #634b66;
+}
+
+canvas, .canvas-container {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.topbar {
+    background-color: #9590a8;
+}
+
+.copy {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  color: #bbcbcb;
+}
+
+#pdf-container {
+    padding-left: 10px;
+    text-align: center;
+}
+
+canvas, .canvas-container {
+    margin-bottom: 25px;
+}
+
+.canvas-container {
+    margin-left: auto;
+    margin-right: auto;
+}
