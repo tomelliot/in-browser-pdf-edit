@@ -55,7 +55,8 @@ function deleteSelectedObject(event) {
 }
 
 function savePDF() {
-  pdf.savePdf("sample.pdf"); // save with given file name
+  pdf.savePdf("Edited - " + document.querySelector('#files').value.split(/(\\|\/)/g).pop());
+  // pdf.savePdf("sample.pdf"); // save with given file name
 }
 
 function clearPage() {
